@@ -142,7 +142,7 @@ else:
 
 # Extra places for collectstatic to find static files.
 
-LOGIN_REDIRECT_URL = reverse_lazy('monitoring:home')
+LOGIN_REDIRECT_URL = reverse_lazy('monitoring:index')
 LOGOUT_REDIRECT_URL = '/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
